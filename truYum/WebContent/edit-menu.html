@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Edit Menu</title>
+<link rel="stylesheet" type="text/css" href="style\style.css">
+</head>
+<body class=Content>
+	<div class="header">
+		<img style="height: 43px" src="images\spoon.png" /> 
+		<a class="dsa" href="menu.html">Menu</a>
+	</div>
+	<br>
+	<br>
+	<div class="MainContent">
+		<h3>Edit Menu Item</h3>
+		<form name="menu" method="post" action="edit-menu-item-status.html">
+			<table id="edit_tab">
+				<tr>
+					Name<br>
+				</tr>
+				<tr>
+					<input type="text" name="name" id="name" size="73" autofocus/>
+				</tr>
+				<tr></tr>
+				<tr></tr>
+				<tr></tr>
+				<tr></tr>
+				<tr>
+					<td>Price(Rs.)</td>
+					<td>Active</td>
+					<td>Date Of Launch</td>
+					<td>Category</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="price" id="price" /></td>
+					<td><input type="radio" name="active" id="active" checked />Yes
+						<input type="radio" name="active" id="active" />No</td>
+					<td><input type="text" name="date" id="date" /></td>
+					<td><select name="category">
+							<option value="Starters">Starters
+							<option value="Main Course">Main Course
+							<option value="Dessert">Dessert
+							<option value="Drinks">Drinks
+					</select></td>
+				</tr>
+				<tr></tr>
+				<tr></tr>
+				<tr></tr>
+				<tr>
+				<tr>
+					<td><input type="checkbox" name="delivery" id="delivery" />Free Delivery</td>
+				</tr>
+				<tr></tr>
+				<tr></tr>
+				<tr></tr>
+				<tr>
+				<tr>
+					<td><input type="submit" class="save" value="Save" name="Save" /></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<footer class="footer"> Copyright &copy; 2019 </footer>
+</body>
+</html>
